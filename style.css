@@ -5,7 +5,9 @@ body {
 a.navbar-brand {
   color: #F0FFFF !important;
   background-color: #8A2BE2;
-  padding: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 3mm;
 }
 
 .box-summary {
@@ -14,4 +16,23 @@ a.navbar-brand {
   margin-right: 2.5em;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
+  padding: 3mm;
+}
+
+h3  {
+  color: #8A2BE2;
+  font-weight: bold;
+}
+
+.float-summary {
+  float: left;
+  margin-right: 5px;
+  width: 250px;
+  height: 160px;
+  border-radius: 1px;
+  padding: 1em;
+}
+
+.box-summary p {
+  font-size: .9em;
 }

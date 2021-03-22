@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- My style sheet link-reference -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Cloudiness Analysis</title>
+    <title>Wind Speed Analysis</title>
   </head>
 
   <body>
@@ -48,80 +48,78 @@
       </div>
     </nav>
 
- <!-- Content for max temparture and visualization boxes-->
- <!-- Create div container to adjust and style with css -->
- <div class="container">
-   <!-- Create row to hold both Summary box and visual box - think parent box -->
-   <div class="row">
-     <!-- Create column within row to hold one box for Summary, lg md sm is for resizing using bootstrap -->
-     <div class="col-lg-8 col-sm-12">
-       <!-- Create own box to allow flex and style separately -->
-       <div class="box-summary">
-         <h3>
-           Analysis: Latitude vs Cloudiness
-         </h3>
-         <hr>
-           <!-- Specific class to allow text to wrap around image, used MDN documentation for help -->
-           <!-- Changed class to not use style css to wrap text -->
-           <div class="float"><img src="Assets/images/latVShumid_scatter.png" alt="Humidity vs Latitude" width="100%" height="100%"></div>
-           <br>
-           <p>
-            There seems to be a slight correlation of cloud cover. The interesting observation one could further investigate are the dense data surrounding the 0%, 20%, 40%, 75%, 90% and 100% markers. It would be interesting to see what aspects of the dataset could determine why these countries have more cloud coverage.
-           </p>
-       </div>
-     </div>
-     <!-- Create column for child box to hold visualization title and images, will help with float -->
-     <div class="col-lg-4 col-sm-12">
-       <div class="visual-summary">
-         <h2>Visualizations</h2>
-         <hr>
-         <!-- Create child row for further styling and to hold two of four images -->
-         <div class="row">
-           <div class="col-lg-6 col-md-1 col-sm-3">
-             <!-- Create class specific for all images to allow for size to fill entire box -->
-             <div class="max-image">
-               <a href="maxtemp.html">
-                 <!-- Use thumbnail in bootstrap to round and float images automatically with bootstrap css stylesheet -->
-                 <img class="img-thumbnail rounded float-left" src="Assets\images\latVStemp_scatter.png" alt="Max Temperature vs Latitude">
-               </a>
-             </div>
+     <!-- Content for max temparture and visualization boxes-->
+     <!-- Create div container to adjust and style with css -->
+     <div class="container">
+       <!-- Create row to hold both Summary box and visual box - think parent box -->
+       <div class="row">
+         <!-- Create column within row to hold one box for Summary, lg md sm is for resizing using bootstrap -->
+         <div class="col-lg-8 col-sm-12">
+           <!-- Create own box to allow flex and style separately -->
+           <div class="box-summary">
+             <h3>
+               Analysis: Latitude vs Wind Speed (mph)
+             </h3>
+             <hr>
+               <!-- Specific class to allow text to wrap around image, used MDN documentation for help -->
+               <!-- Changed class to not use style css to wrap text -->
+               <div class="float"><img src="Assets/images/latVSwind_scatter.png" alt="Max Temperature vs Latitude" width="100%" height="100%"></div>
+               <br>
+               <p>
+               This graph does not clearly indicate any correlation between latitude location and wind speed. Depending on weather events, this data could always be slightly skewed. If one compared this data set with severe weather events, it's possible to find interesting facts or indicators.
+               </p>
            </div>
-           <div class="col-lg-6 col-md-1 col-sm-3">
-             <div class="max-image">
-               <a href="cloud.html">
-                 <img class="img-thumbnail rounded float-left" src="Assets\images\latVScloud_scatter.png" alt="Cloudiness vs Latitude">
-               </a>
+         </div>
+         <!-- Create column for child box to hold visualization title and images, will help with float -->
+         <div class="col-lg-4 col-sm-12">
+           <div class="visual-summary">
+             <h2>Visualizations</h2>
+             <hr>
+             <!-- Create child row for further styling and to hold two of four images -->
+             <div class="row">
+               <div class="col-lg-6 col-md-1 col-sm-3">
+                 <!-- Create class specific for all images to allow for size to fill entire box -->
+                 <div class="max-image">
+                   <a href="maxtemp.html">
+                     <!-- Use thumbnail in bootstrap to round and float images automatically with bootstrap css stylesheet -->
+                     <img class="img-thumbnail rounded float-left" src="Assets\images\latVStemp_scatter.png" alt="Max Temperature vs Latitude">
+                   </a>
+                 </div>
+               </div>
+               <div class="col-lg-6 col-md-1 col-sm-3">
+                 <div class="max-image">
+                   <a href="cloud.html">
+                     <img class="img-thumbnail rounded float-left" src="Assets\images\latVScloud_scatter.png" alt="Cloudiness vs Latitude">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+               <div class="col-lg-6 col-md-1 col-sm-3">
+                 <div class="max-image">
+                   <a href="wind.html">
+                     <img class="img-thumbnail rounded float-left" src="Assets\images\latVSwind_scatter.png" alt="Wind vs Latitude">
+                   </a>
+                 </div>
+               </div>
+               <div class="col-lg-6 col-md-1 col-sm-3">
+                 <div class="max-image">
+                   <a href="humidity.html">
+                     <img class="img-thumbnail rounded float-left" src="Assets\images\latVShumid_scatter.png" alt="Humidity vs Latitude">
+                   </a>
+                 </div>
+               </div>
              </div>
            </div>
          </div>
-         <br>
-         <div class="row">
-           <div class="col-lg-6 col-md-1 col-sm-3">
-             <div class="max-image">
-               <a href="wind.html">
-                 <img class="img-thumbnail rounded float-left" src="Assets\images\latVSwind_scatter.png" alt="Wind vs Latitude">
-               </a>
-             </div>
-           </div>
-           <div class="col-lg-6 col-md-1 col-sm-3">
-             <div class="max-image">
-               <a href="humidity.html">
-                 <img class="img-thumbnail rounded float-left" src="Assets\images\latVShumid_scatter.png" alt="Humidity vs Latitude">
-               </a>
-             </div>
-           </div>
-         </div>
        </div>
      </div>
-   </div>
- </div>
 
-   <!-- Required script to reference and citation for bootstrap templates and css -->
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<!-- Required script to reference and citation for bootstrap templates and css -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
-
 </html>

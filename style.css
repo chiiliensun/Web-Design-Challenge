@@ -22,6 +22,7 @@ a.navbar-brand {
 h3  {
   color: #8A2BE2;
   font-weight: bold;
+  padding-top: .5em;
 }
 
 .float-summary {
@@ -39,9 +40,16 @@ h3  {
 
 .visual-summary {
   background-color: white;
-  margin-left: 2.5em;
-  margin-right: 2.5em;
+  /* margin-left: 2.5em;
+  margin-right: 2.5em; */
   margin-top: 2.5em;
-  margin-bottom: 2.5em;
+  /* margin-bottom: 2.5em; */
   padding: 4mm;
+}
+
+h2 {
+  color: #8A2BE2;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: .5em;
 }

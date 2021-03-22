@@ -8,6 +8,10 @@ a.navbar-brand {
   padding: 10px;
 }
 
-.container {
-  background-color: #DCDCDC;
+.box-summary {
+  background-color: white;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }

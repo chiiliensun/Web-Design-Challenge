@@ -14,7 +14,6 @@ The website must consist of 7 pages total, including:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 
-  Place holder for landing page image
   ![Images/landingResize.png](Visuals/landingResize.png)
 
 
@@ -53,10 +52,9 @@ The website must consist of 7 pages total, including:
     * The table must be a bootstrap table component.
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe.
 
-    Place holder for data page image
   ![Images/Data_page.png](Visuals/Data_page.png)
 
 
 Smaller screen images were decided to not be put into the README.md file due to the extended length.
 
-**Please note that all the code for navbar is identical on all pages and correctly working on all but one. The Data Page - Plots dropdown would not work correctly on my own live server** 
+**Please note that all the code for navbar is identical on all pages and correctly working on all but one. The Data Page - Plots dropdown would not work correctly on my own live server**

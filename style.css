@@ -71,3 +71,28 @@ h2 {
 .max-image {
   max-width: 100%;
 }
+
+/* Comparison page style code */
+.comparison {
+  background-color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 4mm;
+}
+
+.h2-compare {
+  text-align: center;
+
+}
+
+.comparison p {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-weight: normal;
+  color: #8A2BE2;
+}

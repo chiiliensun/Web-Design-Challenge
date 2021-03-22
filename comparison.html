@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <!-- Bootstrap template and css stylesheet citation -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- My style sheet link-reference -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Comparison Dashboard</title>
+  </head>
+
+  <body>
+<!-- Navbar template getbootstrap.com -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- navbar brand Title tab-->
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar collapse to include the dropdown-->
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- navbar dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <!-- navbar comparison tab-->
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <!-- navbar Data tab-->
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Used Grid documentation to build - getbootstrap.com -->
+    <!-- Content for comparison box -->
+    <!-- Create div container to adjust and style with css -->
+    <div class="container-fluid">
+      <!-- Create row to hold Comparison box - think parent box -->
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="comparison">
+            <h2 class="h2-compare">Comparison: Latitude vs X</h2>
+            <hr>
+            <p>
+              Click any plot to get an in-depth analysis.
+            </p>
+            <!-- Create child row for further styling and to hold two of four images -->
+            <div class="row">
+              <div class="col-lg-6 col-md-1 col-sm-3">
+                <h6>vs Max Temp</h6>
+                <!-- Create class specific for all images to allow for size to fill entire box -->
+                <div class="max-image">
+                  <a href="maxtemp.html">
+                    <!-- Use thumbnail in bootstrap to round and float images automatically with bootstrap css stylesheet -->
+                    <img class="img-thumbnail rounded float-left" src="Assets\images\latVStemp_scatter.png" alt="Max Temperature vs Latitude">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-1 col-sm-3">
+                <div class="max-image">
+                  <a href="cloud.html">
+                    <img class="img-thumbnail rounded float-left" src="Assets\images\latVScloud_scatter.png" alt="Cloudiness vs Latitude">
+                  </a>
+                </div>
+              </div>
+            </div>
+          <br>
+            <div class="row">
+              <div class="col-lg-6 col-md-1 col-sm-3">
+                <div class="max-image">
+                  <a href="wind.html">
+                    <img class="img-thumbnail rounded float-left" src="Assets\images\latVSwind_scatter.png" alt="Wind vs Latitude">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-1 col-sm-3">
+                <div class="max-image">
+                  <a href="humidity.html">
+                    <img class="img-thumbnail rounded float-left" src="Assets\images\latVShumid_scatter.png" alt="Humidity vs Latitude">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Required script to reference and citation for bootstrap templates and css -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

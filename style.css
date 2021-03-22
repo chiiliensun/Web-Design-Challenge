@@ -1,7 +1,9 @@
+/* whole body style  */
 body {
   background-color: #DCDCDC;
 }
 
+/* Navbar style */
 a.navbar-brand {
   color: #F0FFFF !important;
   background-color: #8A2BE2;
@@ -10,6 +12,7 @@ a.navbar-brand {
   padding: 3mm;
 }
 
+/* Summary box style in order of html code*/
 .box-summary {
   background-color: white;
   margin-left: 2.5em;
@@ -25,6 +28,7 @@ h3  {
   padding-top: .5em;
 }
 
+/* Summary paragraph to use to wrap text */
 .float-summary {
   float: left;
   margin-right: 5px;
@@ -38,12 +42,10 @@ h3  {
   font-size: .9em;
 }
 
+/* Visual box style */
 .visual-summary {
   background-color: white;
-  /* margin-left: 2.5em;
-  margin-right: 2.5em; */
   margin-top: 2.5em;
-  /* margin-bottom: 2.5em; */
   padding: 4mm;
 }
 
@@ -52,4 +54,8 @@ h2 {
   font-weight: bold;
   font-size: 1.5em;
   padding-top: .5em;
+}
+
+.max-image {
+  max-width: 100%;
 }

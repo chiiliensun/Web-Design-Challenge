@@ -16,7 +16,7 @@ a.navbar-brand {
   margin-right: 2.5em;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
-  padding: 3mm;
+  padding: 4mm;
 }
 
 h3  {
@@ -35,4 +35,13 @@ h3  {
 
 .box-summary p {
   font-size: .9em;
+}
+
+.visual-summary {
+  background-color: white;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  padding: 4mm;
 }

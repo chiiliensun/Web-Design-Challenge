@@ -41,8 +41,8 @@ The website must consist of 7 pages total, including:
   * Uses a Bootstrap grid for the visualizations.
     * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
-    Place holder for comparison page image
-    ![Images/landingResize.png](Visuals/landingResize.png)
+
+  ![Images/Comparison_page.png](Visuals/Comparison_page.png)
 
 
 
@@ -50,8 +50,13 @@ The website must consist of 7 pages total, including:
 
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component.  
+    * The table must be a bootstrap table component.
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe.
 
     Place holder for data page image
-    ![Images/landingResize.png](Visuals/landingResize.png)
+  ![Images/Data_page.png](Visuals/Data_page.png)
+
+
+Smaller screen images were decided to not be put into the README.md file due to the extended length.
+
+**Please note that all the code for navbar is identical on all pages and correctly working on all but one. The Data Page - Plots dropdown would not work correctly on my own live server** 

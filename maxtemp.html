@@ -11,7 +11,44 @@
   </head>
 
   <body>
-  
+
+    <!-- Navbar template getbootstrap.com -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- navbar brand Title tab-->
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar collapse to include the dropdown-->
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- navbar dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <!-- navbar comparison tab-->
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <!-- navbar Data tab-->
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
   </body>
 
 </html>

@@ -18,12 +18,6 @@ a.navbar-brand {
   justify-content: space-around;
 }
 
-/* .flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-} */
-
 /* Summary box style in order of html code*/
 .box-summary {
   background-color: white;
@@ -84,6 +78,7 @@ h2 {
 
 .h2-compare {
   text-align: center;
+  font-size: 2em;
 
 }
 

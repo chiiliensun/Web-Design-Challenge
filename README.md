@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-![Images/landingResize.png](Visuals/landingResize.png)
+![Images/Original_landing.png](Visuals/original_landing.png)
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
@@ -23,17 +23,17 @@ The website must consist of 7 pages total, including:
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
 
-  Place holder for 1st viz page image
-  ![Images/landingResize.png](Visuals/landingResize.png)
+  Max Temperature Analysis Page
+  ![Images/MaxTemp_page.png](Visuals/MaxTemp_page.png)
 
-  Place holder for 2nd viz page image
-  ![Images/landingResize.png](Visuals/landingResize.png)
+  Cloudiness Analysis Page
+  ![Images/Cloud_page.png](Visuals/Cloud_page.png)
 
-  Place holder for 3rd viz page image
-  ![Images/landingResize.png](Visuals/landingResize.png)
+  Humidity Analysis Page
+  ![Images/Humidity_page.png](Visuals/Humidity_page.png)
 
-  Place holder for 4th viz page image
-  ![Images/landingResize.png](Visuals/landingResize.png)
+  Wind Speed Analsyis Page
+  ![Images/Wind_page.png](Visuals/Wind_page.png)
 
 
 * A ["Comparisons" page](#comparisons-page) that:
@@ -51,7 +51,7 @@ The website must consist of 7 pages total, including:
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
     * The table must be a bootstrap table component.  
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. 
+    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe.
 
     Place holder for data page image
     ![Images/landingResize.png](Visuals/landingResize.png)
